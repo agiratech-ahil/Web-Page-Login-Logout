@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./behance-logo-1373E40919-seeklogo.com.png" />
+
+    <title>Free Login/Sign up Page</title>
+    <link href="./new.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@200&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@100&family=Poppins:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="background">
+      <div class="outline">
+        <div class="insidebox">
+          <div class="inside"></div>
+          <section class="circle"></section>
+          <h3>NEW ARRIVALS</h3>
+          <h1>JUST</h1>
+          <h1 class="for">F O R</h1>
+          <h1 class="cursive">you</h1>
+          <img class="girl" src="./girl1.png" />
+        </div>
+
+        <div class="rightcontent">
+          <img class="icon" src="./icon.svg" />
+          <h1 class="side"><span class="first">SAN</span> LIFESTYLE.</h1>
+          <div class="tab">
+            <button id="SignIn" class="tablinks" onclick="changeTab('Signin')" data-tab-target="#Signin" checked>Sign in</button> <button id="SignUp" class="tablinks1" onclick="changeTab('Signup')" data-tab-target="#Signup">Sign up</button>
+            
+          </div>
+
+          <!-- signin tab content -->
+          <div id="Signin" data-tab-content class="tabcontent">
+            <img class="pwd0" src="./unlock.svg" alt="password icon" />
+
+            <img class="user" src="./user.svg" alt="user icon" />
+            <input class="text" placeholder="     Enter your Username" />
+
+            <input
+              class="text"
+              type="password"
+              placeholder="  Enter your Password"
+            />
+            <div class="checkbox">
+              <input id="check" type="checkbox" /><label for="check"
+                >Remember Me</label
+              >
+            </div>
+            <div class="link">
+              <a id="flink" href="#a">Forgot Password?</a>
+            </div>
+
+            <div class="signinbutton">
+              <button id="button">SIGN IN</button>
+            </div>
+            <div class="line">
+              <a class="bottomlink" href="#a"
+                >New on our platform? Create an account</a
+              >
+            </div>
+            <div class="orline">
+              <section class="ortop"></section>
+            <p>Or</p>
+             <section class="orbot"></section>
+            </div>
+            <p class="bottomline">With your social network</p>
+
+            <img id="google" src="./google.png" alt="Google" />
+            <img id="fb" src="./fb.png" alt="Facebook" />
+          </div>
+          <!-- Signup tab content -->
+          <div id="Signup" data-tab-content class="tabcontentup">
+            <div id="userup">
+            <img class="userup" src="./user.svg" alt="user icon" />
+            <input
+              class="textup"
+              type="text"
+              placeholder="      Enter your Username"
+            /></div>
+            
+            
+            <div id="mailup">
+               <img class="mail" src="./envelope-solid.svg" alt="envelope icon" />
+            <input
+              class="textup"
+              types="email"
+              placeholder="     Enter your Email"
+            /></div>
+            <div id="pwd">
+              <img class="pwd" src="./unlock.svg" alt="unlock icon" />
+            <input
+              class="textup"
+              type="password"
+              placeholder="      Enter your Password"
+            /></div>
+              <div id="pwd1">
+                <img class="pwd1" src="./unlock.svg" alt="unlock icon" />
+            <input
+              class="textup"
+              type="password"
+              placeholder="     Confirm your Password"
+            /></div>
+            <div class="signupbutton">
+              <button id="buttonup">SIGN UP</button>
+            </div>
+            <div class="line2">
+              <a class="bottomlinkup" href="#a"
+                >Already have an account?
+                <span class="second">Sign in instead</span></a
+              >
+            </div>
+            <div >
+              <section class="horiline"></section>
+            <p class="or">Or</p>
+            <section class="horizline"></section>
+            </div>
+            <p class="bottomlineup">With your social network</p>
+
+            <img id="googleup" src="./google.png" alt="Google" />
+            <img id="fbup" src="./fb.png" alt="Facebook" />
+          </div>
+        </div>
+      
+    </main>
+    <script src="./new.js"></script>
+  </body>
+</html>

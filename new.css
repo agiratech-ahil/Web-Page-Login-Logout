@@ -1,0 +1,462 @@
+.background {
+  justify-content: center;
+  padding-top: 180px;
+  padding-left: 200px;
+}
+.outline {
+  box-shadow: 0 2px 6px 6px #8288969f;
+  height: 550px;
+  width: 1000px;
+  border-radius: 18px;
+  border: 7px solid #474c55;
+}
+.inside {
+  margin-top: 23px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 3px 3px #849cb69d;
+  width: 550px;
+  border-radius: 10px;
+  height: 500px;
+  margin-left: 30px;
+  background-color: #5446d0;
+}
+.circle {
+  /* s */
+  display: flex;
+  height: 370px;
+  width: 370px;
+  border-radius: 50%;
+  background-color: #5f50eb;
+  margin-left: 180px;
+  margin-top: -400px;
+}
+h3 {
+  display: flex;
+  margin-top: -370px;
+  margin-left: 60px;
+  font-family: "montserrat", sans-serif;
+  color: #bfc7d3c1;
+  font-weight: 500;
+}
+h1 {
+  display: block;
+  line-height: 0.1;
+  font-family: "Montserrat", sans-serif;
+  font-size: 80px;
+  font-weight: 1000;
+  padding-left: 60px;
+  margin-top: 30px;
+  color: #bfc7d3c1;
+}
+.for {
+  letter-spacing: -0.3px;
+}
+.cursive {
+  display: block;
+  font-family: "Dancing Script", cursive;
+  color: rgb(201, 140, 60);
+  font-size: 100px;
+  transform: rotate(-15deg);
+  font-weight: 600;
+  margin: 0px;
+  margin-top: -140px;
+  margin-left: 12px;
+}
+.girl {
+  padding-left: 250px;
+  margin-top: -110px;
+}
+.icon {
+  display: block;
+  height: 20px;
+  width: 20px;
+  margin-top: -500px;
+  margin-left: 710px;
+  left: 720px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.side {
+  padding-left: 740px;
+  margin-top: -13px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: #637083;
+
+  font-family: "Poppins", sans-serif;
+}
+.first {
+  color: rgb(28, 14, 41);
+  font-weight: 1000;
+  font-family: "Poppins", sans-serif;
+}
+.tab {
+  padding-top: 10px;
+  margin-left: 30px;
+}
+
+.tablinks {
+  /* display: flex; */
+  width: 50px;
+  height: 35px;
+  border-style: none;
+  border-top: 2px solid #3f41463b;
+  font-size: 10px;
+  /* margin-left: 700px; */
+  margin-right: none;
+  outline: none;
+  background-color: white;
+
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.tablinks1 {
+  width: 50px;
+  height: 35px;
+  border-style: none;
+  border-top: 2px solid #3f41463b;
+  font-size: 10px;
+  /* margin-left: 700px; */
+  margin-right: none;
+  outline: none;
+  background-color: white;
+
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+/* .rightcontent .tab  {
+  border-top-color: #675cd0;
+  transition: 0.8s;
+  border-top-width: 3px;
+} */
+.tablinks:hover {
+  border-top-color: #675cd0;
+  transition: 0.8s;
+  border-top-width: 3px;
+}
+.tablinks1:hover {
+  border-top-color: #675cd0;
+  transition: 0.8s;
+  border-top-width: 3px;
+}
+
+#SignUp {
+  display: block;
+  margin: 0px;
+  margin-top: -35px;
+  margin-left: 760px;
+}
+/* #SignUp:active {
+  border-top-color: #675cd0;
+  transition: 0.8s;
+  border-top-width: 3px;
+} */
+/* #SignIn:checked ~ .tablinks {
+  left: 50%;
+} */
+#SignIn {
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 710px;
+}
+#Signup {
+  /* display: block; */
+  margin-left: 730px;
+  margin-top: -20px;
+}
+#Signin {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: -35px;
+  margin-left: 720px;
+}
+
+.pwd0 {
+  /* position: absolute; */
+  height: 10px;
+  margin-bottom: -40px;
+  margin-left: -20px;
+  right: 220px;
+  opacity: 0.5;
+}
+.user {
+  /* position: absolute; */
+  /* display: grid; */
+  height: 10px;
+  margin-left: -14px;
+  margin-top: 20px;
+  opacity: 0.5;
+}
+.tabcontent {
+  margin-top: 50px;
+  line-height: 4;
+  padding-left: -30px;
+  display: grid;
+  grid-gap: 100px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+.tabcontent {
+  margin-top: 50px;
+  line-height: 4;
+  padding-left: -30px;
+  display: grid;
+  grid-gap: 100px;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+.text {
+  opacity: 0.5;
+  border-style: none;
+  border-bottom: 1px solid #3f41463b;
+  font-size: 10px;
+  width: 200px;
+  outline: none;
+}
+#google {
+  /* position: relative; */
+
+  height: 35px;
+  bottom: 30px;
+  margin-left: 50px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 1px rgb(202, 199, 199);
+}
+#fb {
+  /* position: relative; */
+
+  height: 35px;
+  margin-top: -50px;
+  margin-left: 30px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 1px rgb(202, 199, 199);
+}
+.link {
+  /* position: relative; */
+  margin-top: -38px;
+  padding-left: 130px;
+}
+#flink {
+  text-decoration: none;
+  margin-left: -20px;
+}
+#button {
+  width: 230px;
+  height: 30px;
+  border-style: none;
+  background-color: #675cd0;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 2;
+  cursor: pointer;
+  margin-left: -30px;
+}
+p {
+  margin-left: 100px;
+  line-height: 2;
+}
+.bottomline {
+  /* position: relative; */
+  margin-left: 50px;
+  bottom: 20px;
+}
+.bottomlink {
+  text-decoration: none;
+}
+.checkbox {
+  margin-left: -18px;
+}
+.userup {
+  height: 10px;
+  /* margin-bottom: 25px; */
+  margin-left: -40px;
+  margin-top: 20px;
+  right: 220px;
+  opacity: 0.5;
+}
+.pwd {
+  /* position: absolute; */
+  margin: 0px;
+  height: 10px;
+  margin-bottom: 6px;
+  margin-top: 20px;
+  margin-left: -40px;
+  right: 220px;
+  opacity: 0.5;
+}
+.pwd1 {
+  /* position: absolute; */
+  margin: 0px;
+  height: 10px;
+  margin-top: 20px;
+  margin-bottom: -50px;
+  margin-left: -40px;
+  right: 220px;
+  opacity: 0.5;
+}
+.mail {
+  margin: 0px;
+  height: 10px;
+  margin-top: 25px;
+  margin-left: -40px;
+  margin-bottom: 3px;
+  opacity: 0.5;
+}
+
+.tabcontentup {
+  display: grid;
+  margin: 5px;
+  padding-top: 50px;
+  padding-right: 20px;
+
+  line-height: 3;
+
+  font-family: "Poppins", sans-serif;
+  font-size: 10px;
+}
+.textup {
+  opacity: 0.5;
+  display: grid;
+  border-style: none;
+  border-bottom: 1px solid #3f41463b;
+  font-size: 10px;
+  width: 200px;
+  outline: none;
+  margin-left: 10px;
+  margin: 0px;
+  margin-top: 20px;
+}
+#buttonup {
+  width: 230px;
+  height: 30px;
+  border-style: none;
+  background-color: #675cd0;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  border-radius: 3px;
+  line-height: 2;
+  cursor: pointer;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+.bottomlinkup {
+  margin: 0px;
+  text-decoration: none;
+  margin-left: -40px;
+}
+.or {
+  margin: 0px;
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.bottomlineup {
+  margin: 0px;
+  margin-left: -1px;
+  margin-right: 40px;
+  margin-top: 13px;
+  bottom: 20px;
+}
+#googleup {
+  height: 35px;
+  margin-top: 13px;
+  margin-left: 10px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 1px rgb(202, 199, 199);
+}
+#fbup {
+  height: 35px;
+  margin-top: -50px;
+  margin-left: 30px;
+  border-radius: 50%;
+  box-shadow: 0 1px 1px 1px rgb(202, 199, 199);
+}
+#userup {
+  display: flex;
+}
+#mailup {
+  display: flex;
+}
+#pwd {
+  display: flex;
+}
+#pwd1 {
+  display: flex;
+}
+.horiline {
+  height: 0.8px;
+  width: 80px;
+  background-color: rgb(168, 161, 161);
+  margin-top: 26px;
+  margin-left: -40px;
+}
+.horizline {
+  height: 1px;
+  width: 80px;
+  background-color: rgb(168, 161, 161);
+  margin-top: -10px;
+  margin-left: 70px;
+}
+.ortop {
+  height: 1px;
+  width: 80px;
+  background-color: rgb(168, 161, 161);
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 12px;
+}
+.orbot {
+  height: 1px;
+  width: 80px;
+  background-color: rgb(168, 161, 161);
+  margin-top: -20px;
+  margin-left: 120px;
+}
+@media screen and (max-width: 423px) {
+  .insidebox {
+    display: none;
+  }
+  .rightcontent {
+    display: block;
+    padding-top: 350px;
+    margin-bottom: -100px;
+    margin-left: -55px;
+    height: 500px;
+    justify-content: center;
+  }
+  .outline {
+    border: none;
+    box-shadow: none;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    margin-left: -760px;
+  }
+  #flink {
+    margin-left: -20px;
+  }
+  .checkbox {
+    margin-left: -30px;
+  }
+  .signinbutton {
+    margin-left: -18px;
+  }
+  .line {
+    margin-left: -25px;
+  }
+  .orline {
+    margin-left: -30px;
+  }
+  .bottomline {
+    margin-left: 15px;
+  }
+  #google {
+    margin-left: 18px;
+  }
+}
