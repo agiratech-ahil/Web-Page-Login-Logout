@@ -445,7 +445,6 @@ p {
     margin-left: 28px;
   }
   .user {
-    position: absolute;
     margin-top: 15px;
   }
   #button {
@@ -464,6 +463,6 @@ p {
     margin-left: 105px;
   }
   #txt {
-    margin-left: -9px;
+    margin-left: -4px;
   }
 }
